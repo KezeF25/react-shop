@@ -1,0 +1,44 @@
+.root {
+  font-size: 22px;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+    .page {
+      border: 1px solid #009fbf;
+      color: #009fbf;
+      border-radius: 10px;
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+      text-align: center;
+      line-height: 34px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+
+      &:hover {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.active {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 34px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
